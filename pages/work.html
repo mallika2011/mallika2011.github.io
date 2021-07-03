@@ -13,7 +13,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Montserrat&family=Patua+One&family=Roboto:ital@0;1&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../static/css/projects.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../static/css/work_projects.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
 
     <title>Mallika Subramanian</title>
 </head>
@@ -37,15 +40,17 @@
     </nav>
 
     <!-- CONTENT -->
-
     <div class="wrapper-content">
 
         <!-- heading -->
-        <div class="project-card sub-headings">
+        <div class="work-project-card sub-headings">
             <h1>Projects and Experience</h1>
         </div>
 
-        <div class="project-card" id="about">
+        <div class="sub-section sub-headings">
+            <h3>Work Experience</h3>
+        </div>
+        <div class="work-project-card" id="work">
             <div class="row justify-content-center">
                 <div class="col-md-3 mb-3">
                     <div class="card h-100 bg-light exp-cards">
@@ -99,65 +104,222 @@
                             <i>
                                 <p>Sept 2018 - Dec 2019</p>
                             </i>
-                            <p class="card-text">Actively participated and helped manage ECell events such as Megathon, FAIL talks etc</p>
+                            <p class="card-text">Actively participated and helped manage ECell events such as Megathon,
+                                FAIL talks etc</p>
                         </div>
                     </div>
                 </div>
 
             </div>
         </div>
-        <!-- <div class="project-card" id="about" style="text-align: left; min-width: 40%; max-width: 40%;">
-            <h2 class="sub-headings">Few Projects</h2>
-            <ol>
-                <li>
-                    <h3 class="sub-sub-headings">LINUX C-Shell</h3>
 
-                    A fully functional Linux shell that supports redirection, piping, envi-
-                    ronment variables, background and foreground process execution etc
-                    Technologies used : C language.
-                </li>
-                <li>
-                    <h3 class="sub-sub-headings">IOT controlled wireless motor</h3>
+        <div class="sub-section sub-headings">
+            <h3>Major Projects</h3>
+        </div>
 
-                    An Embedded Systems Workshop project that involves a motor that
-                    is controlled either based on proximity sensors or remotely controlled
-                    via Wifi.
-                    Technologies used : Arduino, OneM2M and Thingspeak
-                </li>
-                <li>
-                    <h3 class="sub-sub-headings">Mega Mart</h3>
 
-                    An online shopping web app for both customers and vendors with
-                    functionalities to place/dispatch orders, view active orders, rate and
-                    review products and vendors etc.
-                    Technologies used : MERN Stack - MongoDB, Express, React, NodeJS
-                    PGWala Mobile Application
-                </li>
-                <li>
-                    <h3 class="sub-sub-headings">PGWala</h3>
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-wrapper" data-ride="carousel">
 
-                    Full stack hybrid mobile application that aims at simplifying the pro-
-                    cess of maintaining a PG or a hostel digitally rather than using tradi-
-                    tional book-keeping methods. Built as a team project.
-                    Technologies used : React Native, Django and PostgressDB, msg91.
-                </li>
-                <li>
-                    <h3 class="sub-sub-headings">The Mandalorian</h3>
+            <!--Controls-->
+            <div class="carousel-buttons">
+                <a class="btn btn-primary btn-circle btn-carousel" href="#multi-item-example" data-slide="prev"><i
+                        class="fas fa-chevron-left"></i></a>
+                <a class="btn btn-primary btn-circle btn-carousel" href="#multi-item-example" data-slide="next"><i
+                        class="fas fa-chevron-right"></i></a>
+            </div>
+            <!--/.Controls-->
 
-                    A terminal version of the Jetpack Joyride game with a collection of
-                    features such as, collecting coins, dodging obstacles, fighting a dragon
-                    etc.
-                    Technologies used : Python3, Numpy
-                </li>
-                <li>
-                    <h3 class="sub-sub-headings">Optimised Key-Value Pair Storage:</h3>
-
-                    Efficiently storing key-value pairs in memory using compressed tries
-                    that enable quick searches.
-                    Technologies used : Coded in C++.
-                </li>
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                <li data-target="#multi-item-example" data-slide-to="1"></li>
+                <li data-target="#multi-item-example" data-slide-to="2"></li>
             </ol>
-        </div> -->
+            <!--/.Indicators-->
+
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+
+                <!--First slide-->
+                <div class="carousel-item active">
+
+                    <div class="col-md-3 mb-3" style="float:left">
+                        <div class="card h-100 bg-light exp-cards">
+                            <div class="card-header"></div>
+                            <img class="card-img-top" src="../static/assets/projects/images/sentiment.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: bold;">Sentiment Analyzer</h5>
+                                <p class="card-text">Text classifcation and sentiment analysis on Google Play Reviews
+                                    using BERT, Huggingface transformers and PyTorch.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3" style="float:left">
+                        <div class="card h-100 bg-light exp-cards">
+                            <div class="card-header"></div>
+                            <img class="card-img-top" src="../static/assets/projects/images/shell.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: bold;">Linux C-Shell</h5>
+                                <p class="card-text">A Complete working linux shell built in C. Supports most shell
+                                    functionalities such as linux commands, redirection, piping etc.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3" style="float:left">
+                        <div class="card h-100 bg-light exp-cards">
+                            <div class="card-header"></div>
+                            <img class="card-img-top" src="../static/assets/projects/images/key_value.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: bold;">In Memory Key-Value Pair</h5>
+                                <p class="card-text">An optimized storage software built using Tries and Trees. Supports
+                                    get, put, delete and get(n), delete(n) APIs.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3" style="float:left">
+                        <div class="card h-100 bg-light exp-cards">
+                            <div class="card-header"></div>
+                            <img class="card-img-top" src="../static/assets/projects/images/reflection.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: bold;">Reflection Removal</h5>
+                                <p class="card-text">Implementation of of the 2015 CVPR paper on reflection removal using
+                                    ghosting cues and the gaussian mixture model.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/.First slide-->
+
+                <!--Second slide-->
+                <div class="carousel-item">
+
+                    <div class="col-md-3 mb-3" style="float:left">
+                        <div class="card h-100 bg-light exp-cards">
+                            <div class="card-header"></div>
+                            <img class="card-img-top" src="../static/assets/projects/images/iot.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: bold;">IoT controlled Motor</h5>
+                                <p class="card-text">A wireless motor that is controlled either based on proximity
+                                    sensors or remotely controlled via Wifi and communicates via OM2M.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3" style="float:left">
+                        <div class="card h-100 bg-light exp-cards">
+                            <div class="card-header"></div>
+                            <img class="card-img-top" src="../static/assets/projects/images/spotify.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: bold;">Spotify Recommender</h5>
+                                <p class="card-text">A recommender system built with a dataset of 40,000 spotify
+                                    playlists using network embeddings and clustering approaches.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3" style="float:left">
+                        <div class="card h-100 bg-light exp-cards">
+                            <div class="card-header"></div>
+                            <img class="card-img-top" src="../static/assets/projects/images/mega.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: bold;">Mega Mart</h5>
+                                <p class="card-text">An online shopping web app built for both customers and vendors -
+                                    to place/dispatch orders, rate and review products etc.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3" style="float:left">
+                        <div class="card h-100 bg-light exp-cards">
+                            <div class="card-header"></div>
+                            <img class="card-img-top" src="../static/assets/projects/images/maze.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: bold;">Maze Search Engine</h5>
+                                <p class="card-text">A search engine built on a standard dump of Wikipedia atricles
+                                    (40GB corpus). Supports normal queries and field queries.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/.Second slide-->
+
+                <!--Third slide-->
+                <div class="carousel-item">
+
+                    <div class="col-md-3 mb-3" style="float:left">
+                        <div class="card h-100 bg-light exp-cards">
+                            <div style="padding: 2%;" class="card-header"></div>
+                            <img class="card-img-top" src="../static/assets/projects/images/face_detection.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Face Detection</h5>
+                                <p class="card-text">A face detector based on the Viola Jones algorth that uses Haar
+                                    features, integral images and adaboost training.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3" style="float:left">
+                        <div class="card h-100 bg-light exp-cards">
+                            <div class="card-header"></div>
+                            <img class="card-img-top" src="../static/assets/projects/images/mando.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: bold;">The Mandalorian</h5>
+                                <p class="card-text">A terminal version of the Jetpack Joyride. Players can dodge
+                                    obstacles, collect coins, and fight the fierce dragon to win the game!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3" style="float:left">
+                        <div class="card h-100 bg-light exp-cards">
+                            <div class="card-header"></div>
+                            <img class="card-img-top" src="../static/assets/projects/images/grab.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: bold;">Grab Cut Segmentation</h5>
+                                <p class="card-text">An implementation of the interactive GrabCut algorithm that uses
+                                    Gaussian Mixture Models and MinCuts.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3" style="float:left">
+                        <div class="card h-100 bg-light exp-cards">
+                            <div class="card-header"></div>
+                            <img class="card-img-top" src="../static/assets/projects/images/anuvaad.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: bold;">Anuvaad</h5>
+                                <p class="card-text">An English to Hindi machine translator implemented using LSTMs and
+                                    GRUs. Uses the IITB en-hi corpus to train the model.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/.Third slide-->
+
+            </div>
+            <!--/.Slides-->
+
+        </div>
+        <!--/.Carousel Wrapper-->
         <div><br><br></div>
     </div>
 
@@ -172,7 +334,7 @@
                 <a href="https://github.com/mallika2011" class="fa fa-github"></a>
             </div>
             <div class="card-footer text-muted footer-colour">
-                <p style="color:azure"> &copy Mallika Subramanian 2020</p>
+                <p style="color:azure"> &copy Mallika Subramanian 2021</p>
             </div>
         </div>
     </div>
