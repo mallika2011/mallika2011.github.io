@@ -181,6 +181,9 @@ ol.carousel-indicators li.active {
 
 .btn-carousel {
   background-color: teal !important;
+  padding: 0;
+  margin: 0;
+  width: 5%;
 }
 .btn-carousel:hover {
   background-color: grey !important;
