@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2021-10-01 18:44:00
 inline: true
 ---
 
-A simple inline announcement.
+India HCI '21: "From Assistants to Friends: Investigating Emotional Intelligence of IPAs in Hindi and English" accepted for presentation in the [India HCI SRC Track](https://indiahci.org/2021/track-student-research-consortium.php)
