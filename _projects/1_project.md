@@ -1,12 +1,14 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: /assets/img/12.jpg
+title: Sentiment Analyzer
+description: Text classifcation and sentiment analysis on Google Play Reviews
+            using BERT, Huggingface transformers and PyTorch.
+img: /assets/img/project-images/sentiment.png
 importance: 1
-category: work
+category: Work
+redirect: https://github.com/mallika2011/Sentiment-Analysis
 ---
-
+<!-- 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
@@ -75,4 +77,4 @@ Here's the code for the last row of images above:
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
-```
+``` -->
