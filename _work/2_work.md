@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Microsoft Engage Mentee
-description: Built an AI driven 
+description: Built an AI driven tic-tac-toe as a part of the Engage 2020 program under the mentorship of mentors from Microsoft.
 
 img: /assets/img/codess-logo.png
 timeline: "July-Aug 2020"
