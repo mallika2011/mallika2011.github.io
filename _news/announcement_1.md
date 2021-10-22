@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2021-10-01 18:44:00
+date: 2021-10-01
 inline: true
 ---
 
