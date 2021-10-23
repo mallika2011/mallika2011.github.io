@@ -10,7 +10,7 @@ date: "01-08-2020"
 display-description: ""
 ---
 
-Worked with Prof. [Kamal Karlapalem](https://www.iiit.ac.in/people/faculty/kamal/) as a teaching assitant for the Data and Applications course during the Monsoon 2020 semester. 
+Worked with [Prof. Kamal Karlapalem](https://www.iiit.ac.in/people/faculty/kamal/) as a teaching assitant for the Data and Applications course during the Monsoon 2020 semester.
 
 Helped set assignments, grade submissions and manage the running of the course.
 

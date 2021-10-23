@@ -1,6 +1,6 @@
 ---
 layout: page
-title: E-Cell IIIT Hyd.
+title: E-Cell IIIT-H
 description: Team member and contributor. Also participated in events organized by the body.
 
 img: /assets/img/ecell.png

@@ -2,7 +2,7 @@
 layout: page
 title: Work
 permalink: /work/
-description: My work experiences over the years
+description: My work experiences over the years. Click to read more in detail about each.
 nav: true
 horizontal: true
 ---
