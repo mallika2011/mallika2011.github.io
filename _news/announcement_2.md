@@ -4,7 +4,7 @@ date: 2021-10-12
 inline: true
 ---
 
-[FIRE '21](http://fire.irsi.res.in/fire/2021/home): "Battling Hateful Content in Indic Languages HASOC ’21" accepted as a part of the [CEUR Workshop](http://ceur-ws.org/). | [Paper](https://arxiv.org/abs/2110.12780)
+[FIRE '21](http://fire.irsi.res.in/fire/2021/home): "Battling Hateful Content in Indic Languages HASOC ’21" accepted as a part of the [CEUR Workshop](http://ceur-ws.org/). \| [Paper](https://arxiv.org/abs/2110.12780)
 
 <!-- Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
 
