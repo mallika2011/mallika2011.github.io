@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi! I am Mallika, a final year BTech. in Computer Science undergraduate student at the [International Institute of Information Technology, Hyderabad](https://www.iiit.ac.in/). I am an inquisitive student and am always eager to explore new concepts in the realm of computer science. Deeply passionate about the field of Natural Language Processing and linguistics, I enjoy reading about exciting research in this domain.
+Hi! I am Mallika, a final year BTech. in CS undergraduate student at the [International Institute of Information Technology, Hyderabad](https://www.iiit.ac.in/). I am an inquisitive student and am always eager to explore new concepts in the realm of computer science. Deeply passionate about the field of Natural Language Processing and linguistics, I enjoy reading about exciting research in this domain.
 
 I am an undergraduate research student at [Precog IIITH](https://precog.iiit.ac.in/) advised by [Prof. Ponnurangam Kumaraguru](https://scholar.google.com/citations?user=MfzQyP8AAAAJ&hl=en). My work revolves around Social Computing and NLP for social good.
 
