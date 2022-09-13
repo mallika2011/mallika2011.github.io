@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi! I am Mallika! I'm an incoming MSCS student at [Columbia University](https://www.columbia.edu/) starting Fall 2022.
+Hi! I am Mallika! I'm a first year MSCS student at [Columbia University](https://www.columbia.edu/).
 
 I am an inquisitive student and am always eager to explore new concepts in the realm of computer science. Deeply passionate about the field of Computational Social Science and Natural Language Processing, I enjoy reading about exciting research in this domain.
 
