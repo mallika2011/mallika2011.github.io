@@ -7,7 +7,7 @@ description: Interned with the GSeekh team for the Read Along android app implem
 img: /assets/img/Google-logo.jpg
 timeline: "May-July 2021"
 importance: 1
-date: "01-05-2021"
+date: "01-07-2021"
 display-description: ""
 ---
 

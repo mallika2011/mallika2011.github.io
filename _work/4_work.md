@@ -7,7 +7,7 @@ img: /assets/img/ecell.png
 timeline: "Sept 2018 - Dec 2019"
 importance: 1
 width: "50%"
-date: "01-09-2018"
+date: "01-12-2019"
 display-description: ""
 ---
 

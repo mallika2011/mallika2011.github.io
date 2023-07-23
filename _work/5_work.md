@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Ping! IIIT-H
 description: Served as a creative director for the institute's magazine body. Contributed as an active designer.
@@ -23,4 +23,4 @@ Designed multiple articles for the monthly magazine issues, sketched cartoons, a
 ***Jul 2019 – Jun 2020***
 
 Headed the design team for the universities official magazine body. Guided the creation of new content for the monthly issues of the college magazine, designing articles and social media posts.
-Actively involved in streamlining the launch of the fortnight newspaper "Echoes".
+Actively involved in streamlining the launch of the fortnight newspaper "Echoes". -->

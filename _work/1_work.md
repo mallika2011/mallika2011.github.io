@@ -5,7 +5,7 @@ description: Interned with the Google Maps team to build a Time Lapse Visualizer
 
 img: /assets/img/Google-logo.jpg
 timeline: "Jun-July 2020"
-date: "01-06-2020"
+date: "01-07-2020"
 importance: 1
 display-description: ""
 ---

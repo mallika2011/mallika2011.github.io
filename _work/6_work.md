@@ -4,10 +4,10 @@ title: Precog IIIT-H
 description: Undergraduate research student at Precog IIITH.
 
 img: /assets/img/precog.png
-timeline: "May 2020 - Present"
+timeline: "May 2020 - May 2022"
 importance: 1
 width: "80%"
-date: "01-10-2021"
+date: "01-05-2021"
 display-description: ""
 ---
 

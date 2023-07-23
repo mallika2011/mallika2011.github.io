@@ -5,7 +5,7 @@ description: Built an AI driven tic-tac-toe as a part of the Engage 2020 program
 
 img: /assets/img/codess-logo.png
 timeline: "July-Aug 2020"
-date: "01-07-2020"
+date: "01-08-2020"
 width: "75%"
 importance: 2
 display-description: ""
